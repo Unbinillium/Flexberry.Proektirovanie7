@@ -7,15 +7,6 @@
   "parentClassName": null,
   "attrs": [
     {
-      "name": "кли3нт",
-      "type": "string",
-      "flexberryType": "string",
-      "notNull": false,
-      "defaultValue": "",
-      "stored": true,
-      "ordered": false
-    },
-    {
       "name": "колВо",
       "type": "number",
       "flexberryType": "int",
@@ -25,7 +16,16 @@
       "ordered": false
     },
     {
-      "name": "сотрутник",
+      "name": "ответственный",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "покупатель",
       "type": "string",
       "flexberryType": "string",
       "notNull": false,

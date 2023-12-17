@@ -60,9 +60,9 @@ namespace IIS.Proektirovanie_
     public class Продажи : ICSSoft.STORMNET.DataObject
     {
         
-        private string fСотрутник;
+        private string fОтветственный;
         
-        private string fКли3нт;
+        private string fПокупатель;
         
         private string fТовар;
         
@@ -82,38 +82,6 @@ namespace IIS.Proektirovanie_
 
         // *** End programmer edit section *** (Продажи CustomMembers)
 
-        
-        /// <summary>
-        /// Кли3нт.
-        /// </summary>
-        // *** Start programmer edit section *** (Продажи.Кли3нт CustomAttributes)
-
-        // *** End programmer edit section *** (Продажи.Кли3нт CustomAttributes)
-        [StrLen(255)]
-        public virtual string Кли3нт
-        {
-            get
-            {
-                // *** Start programmer edit section *** (Продажи.Кли3нт Get start)
-
-                // *** End programmer edit section *** (Продажи.Кли3нт Get start)
-                string result = this.fКли3нт;
-                // *** Start programmer edit section *** (Продажи.Кли3нт Get end)
-
-                // *** End programmer edit section *** (Продажи.Кли3нт Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (Продажи.Кли3нт Set start)
-
-                // *** End programmer edit section *** (Продажи.Кли3нт Set start)
-                this.fКли3нт = value;
-                // *** Start programmer edit section *** (Продажи.Кли3нт Set end)
-
-                // *** End programmer edit section *** (Продажи.Кли3нт Set end)
-            }
-        }
         
         /// <summary>
         /// КолВо.
@@ -147,34 +115,66 @@ namespace IIS.Proektirovanie_
         }
         
         /// <summary>
-        /// Сотрутник.
+        /// Ответственный.
         /// </summary>
-        // *** Start programmer edit section *** (Продажи.Сотрутник CustomAttributes)
+        // *** Start programmer edit section *** (Продажи.Ответственный CustomAttributes)
 
-        // *** End programmer edit section *** (Продажи.Сотрутник CustomAttributes)
+        // *** End programmer edit section *** (Продажи.Ответственный CustomAttributes)
         [StrLen(255)]
-        public virtual string Сотрутник
+        public virtual string Ответственный
         {
             get
             {
-                // *** Start programmer edit section *** (Продажи.Сотрутник Get start)
+                // *** Start programmer edit section *** (Продажи.Ответственный Get start)
 
-                // *** End programmer edit section *** (Продажи.Сотрутник Get start)
-                string result = this.fСотрутник;
-                // *** Start programmer edit section *** (Продажи.Сотрутник Get end)
+                // *** End programmer edit section *** (Продажи.Ответственный Get start)
+                string result = this.fОтветственный;
+                // *** Start programmer edit section *** (Продажи.Ответственный Get end)
 
-                // *** End programmer edit section *** (Продажи.Сотрутник Get end)
+                // *** End programmer edit section *** (Продажи.Ответственный Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (Продажи.Сотрутник Set start)
+                // *** Start programmer edit section *** (Продажи.Ответственный Set start)
 
-                // *** End programmer edit section *** (Продажи.Сотрутник Set start)
-                this.fСотрутник = value;
-                // *** Start programmer edit section *** (Продажи.Сотрутник Set end)
+                // *** End programmer edit section *** (Продажи.Ответственный Set start)
+                this.fОтветственный = value;
+                // *** Start programmer edit section *** (Продажи.Ответственный Set end)
 
-                // *** End programmer edit section *** (Продажи.Сотрутник Set end)
+                // *** End programmer edit section *** (Продажи.Ответственный Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Покупатель.
+        /// </summary>
+        // *** Start programmer edit section *** (Продажи.Покупатель CustomAttributes)
+
+        // *** End programmer edit section *** (Продажи.Покупатель CustomAttributes)
+        [StrLen(255)]
+        public virtual string Покупатель
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Продажи.Покупатель Get start)
+
+                // *** End programmer edit section *** (Продажи.Покупатель Get start)
+                string result = this.fПокупатель;
+                // *** Start programmer edit section *** (Продажи.Покупатель Get end)
+
+                // *** End programmer edit section *** (Продажи.Покупатель Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Продажи.Покупатель Set start)
+
+                // *** End programmer edit section *** (Продажи.Покупатель Set start)
+                this.fПокупатель = value;
+                // *** Start programmer edit section *** (Продажи.Покупатель Set end)
+
+                // *** End programmer edit section *** (Продажи.Покупатель Set end)
             }
         }
         

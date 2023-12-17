@@ -5,9 +5,9 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
-  кли3нт: DS.attr('string'),
   колВо: DS.attr('number'),
-  сотрутник: DS.attr('string'),
+  ответственный: DS.attr('string'),
+  покупатель: DS.attr('string'),
   сумма: DS.attr('number'),
   товар: DS.attr('string'),
   цена: DS.attr('number'),
@@ -17,12 +17,6 @@ export let Model = Mixin.create({
 });
 
 export let ValidationRules = {
-  кли3нт: {
-    descriptionKey: 'models.i-i-s-proektirovanie-продажи.validations.кли3нт.__caption__',
-    validators: [
-      validator('ds-error'),
-    ],
-  },
   колВо: {
     descriptionKey: 'models.i-i-s-proektirovanie-продажи.validations.колВо.__caption__',
     validators: [
@@ -30,8 +24,14 @@ export let ValidationRules = {
       validator('number', { allowString: true, allowBlank: true, integer: true }),
     ],
   },
-  сотрутник: {
-    descriptionKey: 'models.i-i-s-proektirovanie-продажи.validations.сотрутник.__caption__',
+  ответственный: {
+    descriptionKey: 'models.i-i-s-proektirovanie-продажи.validations.ответственный.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  покупатель: {
+    descriptionKey: 'models.i-i-s-proektirovanie-продажи.validations.покупатель.__caption__',
     validators: [
       validator('ds-error'),
     ],

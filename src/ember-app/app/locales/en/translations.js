@@ -147,6 +147,18 @@ $.extend(true, translations, {
             caption: 'КлиентL',
             title: 'Клиент'
           }
+        },
+        документы: {
+          caption: 'Документы',
+          title: 'Документы',
+          'i-i-s-proektirovanie-перемещение-l': {
+            caption: 'ПеремещениеL',
+            title: 'Перемещение'
+          },
+          'i-i-s-proektirovanie-продажи-l': {
+            caption: 'ПродажиL',
+            title: 'Продажи'
+          }
         }
       }
     },

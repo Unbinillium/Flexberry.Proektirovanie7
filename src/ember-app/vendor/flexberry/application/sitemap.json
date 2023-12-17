@@ -87,6 +87,28 @@
           "children": null
         }
       ]
+    },
+    {
+      "link": null,
+      "menuName": "документы",
+      "caption": "Документы",
+      "title": "Документы",
+      "children": [
+        {
+          "link": "i-i-s-proektirovanie-перемещение-l",
+          "menuName": null,
+          "caption": "ПеремещениеL",
+          "title": "Перемещение",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proektirovanie-продажи-l",
+          "menuName": null,
+          "caption": "ПродажиL",
+          "title": "Продажи",
+          "children": null
+        }
+      ]
     }
   ],
   "mobile": true

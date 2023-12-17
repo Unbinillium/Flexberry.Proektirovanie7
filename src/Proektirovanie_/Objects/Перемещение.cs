@@ -60,9 +60,9 @@ namespace IIS.Proektirovanie_
     public class Перемещение : ICSSoft.STORMNET.DataObject
     {
         
-        private string fСотрутник;
+        private string fОтветственный;
         
-        private string fП0ставщик;
+        private string fПродавец;
         
         private string fТовар;
         
@@ -115,66 +115,66 @@ namespace IIS.Proektirovanie_
         }
         
         /// <summary>
-        /// П0ставщик.
+        /// Ответственный.
         /// </summary>
-        // *** Start programmer edit section *** (Перемещение.П0ставщик CustomAttributes)
+        // *** Start programmer edit section *** (Перемещение.Ответственный CustomAttributes)
 
-        // *** End programmer edit section *** (Перемещение.П0ставщик CustomAttributes)
+        // *** End programmer edit section *** (Перемещение.Ответственный CustomAttributes)
         [StrLen(255)]
-        public virtual string П0ставщик
+        public virtual string Ответственный
         {
             get
             {
-                // *** Start programmer edit section *** (Перемещение.П0ставщик Get start)
+                // *** Start programmer edit section *** (Перемещение.Ответственный Get start)
 
-                // *** End programmer edit section *** (Перемещение.П0ставщик Get start)
-                string result = this.fП0ставщик;
-                // *** Start programmer edit section *** (Перемещение.П0ставщик Get end)
+                // *** End programmer edit section *** (Перемещение.Ответственный Get start)
+                string result = this.fОтветственный;
+                // *** Start programmer edit section *** (Перемещение.Ответственный Get end)
 
-                // *** End programmer edit section *** (Перемещение.П0ставщик Get end)
+                // *** End programmer edit section *** (Перемещение.Ответственный Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (Перемещение.П0ставщик Set start)
+                // *** Start programmer edit section *** (Перемещение.Ответственный Set start)
 
-                // *** End programmer edit section *** (Перемещение.П0ставщик Set start)
-                this.fП0ставщик = value;
-                // *** Start programmer edit section *** (Перемещение.П0ставщик Set end)
+                // *** End programmer edit section *** (Перемещение.Ответственный Set start)
+                this.fОтветственный = value;
+                // *** Start programmer edit section *** (Перемещение.Ответственный Set end)
 
-                // *** End programmer edit section *** (Перемещение.П0ставщик Set end)
+                // *** End programmer edit section *** (Перемещение.Ответственный Set end)
             }
         }
         
         /// <summary>
-        /// Сотрутник.
+        /// Продавец.
         /// </summary>
-        // *** Start programmer edit section *** (Перемещение.Сотрутник CustomAttributes)
+        // *** Start programmer edit section *** (Перемещение.Продавец CustomAttributes)
 
-        // *** End programmer edit section *** (Перемещение.Сотрутник CustomAttributes)
+        // *** End programmer edit section *** (Перемещение.Продавец CustomAttributes)
         [StrLen(255)]
-        public virtual string Сотрутник
+        public virtual string Продавец
         {
             get
             {
-                // *** Start programmer edit section *** (Перемещение.Сотрутник Get start)
+                // *** Start programmer edit section *** (Перемещение.Продавец Get start)
 
-                // *** End programmer edit section *** (Перемещение.Сотрутник Get start)
-                string result = this.fСотрутник;
-                // *** Start programmer edit section *** (Перемещение.Сотрутник Get end)
+                // *** End programmer edit section *** (Перемещение.Продавец Get start)
+                string result = this.fПродавец;
+                // *** Start programmer edit section *** (Перемещение.Продавец Get end)
 
-                // *** End programmer edit section *** (Перемещение.Сотрутник Get end)
+                // *** End programmer edit section *** (Перемещение.Продавец Get end)
                 return result;
             }
             set
             {
-                // *** Start programmer edit section *** (Перемещение.Сотрутник Set start)
+                // *** Start programmer edit section *** (Перемещение.Продавец Set start)
 
-                // *** End programmer edit section *** (Перемещение.Сотрутник Set start)
-                this.fСотрутник = value;
-                // *** Start programmer edit section *** (Перемещение.Сотрутник Set end)
+                // *** End programmer edit section *** (Перемещение.Продавец Set start)
+                this.fПродавец = value;
+                // *** Start programmer edit section *** (Перемещение.Продавец Set end)
 
-                // *** End programmer edit section *** (Перемещение.Сотрутник Set end)
+                // *** End programmer edit section *** (Перемещение.Продавец Set end)
             }
         }
         

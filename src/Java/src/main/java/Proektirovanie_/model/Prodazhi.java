@@ -22,11 +22,11 @@ public class Prodazhi {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "Сотрутник")
-    private String сотрутник;
+    @Column(name = "Ответственный")
+    private String ответственный;
 
-    @Column(name = "Кли3нт")
-    private String кли3нт;
+    @Column(name = "Покупатель")
+    private String покупатель;
 
     @Column(name = "Товар")
     private String товар;
@@ -83,20 +83,20 @@ public class Prodazhi {
         return primarykey;
     }
 
-    public String getСотрутник() {
-      return сотрутник;
+    public String getОтветственный() {
+      return ответственный;
     }
 
-    public void setСотрутник(String сотрутник) {
-      this.сотрутник = сотрутник;
+    public void setОтветственный(String ответственный) {
+      this.ответственный = ответственный;
     }
 
-    public String getКли3нт() {
-      return кли3нт;
+    public String getПокупатель() {
+      return покупатель;
     }
 
-    public void setКли3нт(String кли3нт) {
-      this.кли3нт = кли3нт;
+    public void setПокупатель(String покупатель) {
+      this.покупатель = покупатель;
     }
 
     public String getТовар() {

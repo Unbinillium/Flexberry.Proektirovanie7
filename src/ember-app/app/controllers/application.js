@@ -28,37 +28,36 @@ export default Controller.extend({
             link: 'i-i-s-proektirovanie-продажи-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-продажи-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-продажи-l.title'),
-            icon: 'calendar',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-сотрудник-l.title'),
-            icon: 'tasks',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-клиент-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-клиент-l.title'),
-            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-перемещение-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-перемещение-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-перемещение-l.title'),
-            icon: 'edit',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-номенклатура-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-номенклатура-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-номенклатура-l.title'),
-            icon: 'edit',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-поставщик-l',
             caption: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-поставщик-l.caption'),
             title: i18n.t('forms.application.sitemap.учет-материалов.i-i-s-proektirovanie-поставщик-l.title'),
-            icon: 'tags',
+            icon: 'file',
             children: null
           }]
         }, {
@@ -70,24 +69,43 @@ export default Controller.extend({
             link: 'i-i-s-proektirovanie-поставщик-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-поставщик-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-поставщик-l.title'),
-            icon: 'calendar',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-сотрудник-l.title'),
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-номенклатура-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-номенклатура-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-номенклатура-l.title'),
-            icon: 'briefcase',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-proektirovanie-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-proektirovanie-клиент-l.title'),
-            icon: 'book',
+            icon: 'suitcase',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.документы.caption'),
+          title: i18n.t('forms.application.sitemap.документы.title'),
+          children: [{
+            link: 'i-i-s-proektirovanie-перемещение-l',
+            caption: i18n.t('forms.application.sitemap.документы.i-i-s-proektirovanie-перемещение-l.caption'),
+            title: i18n.t('forms.application.sitemap.документы.i-i-s-proektirovanie-перемещение-l.title'),
+            icon: 'phone',
+            children: null
+          }, {
+            link: 'i-i-s-proektirovanie-продажи-l',
+            caption: i18n.t('forms.application.sitemap.документы.i-i-s-proektirovanie-продажи-l.caption'),
+            title: i18n.t('forms.application.sitemap.документы.i-i-s-proektirovanie-продажи-l.title'),
+            icon: 'paperclip',
             children: null
           }]
         }
